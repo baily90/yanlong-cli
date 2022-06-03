@@ -1,0 +1,22 @@
+{
+  "name": "yanlong-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "files": ["bin", "package.json", "README.md"],
+  "bin": {
+    "yanlong-cli": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "node ./bin/index.js"
+  },
+  "author": "zhangyanlong",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "execa": "^6.1.0",
+    "handlebars": "^4.7.7",
+    "inquirer": "^8.2.4"
+  }
+}
