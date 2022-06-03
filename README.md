@@ -1,5 +1,14 @@
 # yanlong-cli
 
+## setup
+```
+npm install yanlong-cli -g
+
+yarn global add yanlong-cli
+
+pnpm add -g yanlong-cli
+```
+
 ## init project
 ```
 yanlong-cli
@@ -22,4 +31,10 @@ yarn dev
 
 pnpm:
 pnpm run dev
+```
+
+## todo...
+```
+1、接入webpack压缩源码
+
 ```
